@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent = getIntent();
         String time = intent.getStringExtra("key");
         String text = "«КВАДРАТ ЗНАЧЕНИЯ\n" +
-                "МОЕГО НОМЕРА ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ 784, а текущее время " + time;
+                "МОЕГО НОМЕРА ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ 676, а текущее время " + time;
         TextView tv = findViewById(R.id.textView);
         tv.setText(text);
     }
