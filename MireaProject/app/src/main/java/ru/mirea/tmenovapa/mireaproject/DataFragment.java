@@ -9,11 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link DataFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class DataFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
@@ -59,14 +54,17 @@ public class DataFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // Настройка отображения данных о выбранной отрасли
         View view = inflater.inflate(R.layout.fragment_data, container, false);
-        TextView text_features = view.findViewById(R.id.features_text);
-        text_features.setText("1. Боксерские косы.\n" +
-                "2. Косы с канеколоном.\n" +
-                "3. Длинная коса.\n" +
-                "4. Сенегальские косы.\n" +
-                "5. Дреды.");
+
+        TextView MachineLearningInfoTextView = view.findViewById(R.id.InfoTextView);
+        String MachineLearningInfo = "Уникальная информация о машинном обучении здесь...\n\n" +
+                "Машинное обучение (Machine Learning, ML) - это раздел искусственного интеллекта, который изучает методы построения систем, способных обучаться на основе предоставленных данных и делать прогнозы или принимать решения на основе этого обучения. В ML используются различные алгоритмы и модели, такие как нейронные сети, деревья решений, метод ближайших соседей и другие, для извлечения закономерностей из данных и прогнозирования результатов.\n\n" +
+                "Применения машинного обучения включают в себя распознавание образов, анализ текста, рекомендательные системы, автоматическое управление, медицинскую диагностику, финансовый анализ и многое другое.\n\n" +
+                "Основные задачи машинного обучения включают в себя классификацию, регрессию, кластеризацию и обучение с подкреплением.\n\n";
+
+        MachineLearningInfoTextView .setText(MachineLearningInfo);
+
         return view;
     }
 }

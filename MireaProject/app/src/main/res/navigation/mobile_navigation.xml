@@ -7,31 +7,69 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="ru.mirea.solovevave.mireaproject.ui.home.HomeFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="ru.mirea.solovevave.mireaproject.ui.gallery.GalleryFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="ru.mirea.solovevave.mireaproject.ui.slideshow.SlideshowFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
-
     <fragment
-        android:id="@+id/nav_brouser"
-        android:name="ru.mirea.solovevave.mireaproject.FragmentNavBrowser"
-        android:label="fragment_nav_browser"
-        tools:layout="@layout/fragment_nav_browser" />
-
-    <fragment
-        android:id="@+id/nav_data"
-        android:name="ru.mirea.solovevave.mireaproject.DataFragment"
+        android:id="@+id/dataFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.DataFragment"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/backgroundActivity2"
+        android:name="ru.mirea.beltsovmd.mireaproject.backgroundActivity"
+        android:label="fragment_background_activity"
+        tools:layout="@layout/fragment_background_activity" />
+    <fragment
+        android:id="@+id/distanceSensorFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.DistanceSensorFragment"
+        android:label="fragment_distance_sensor"
+        tools:layout="@layout/fragment_distance_sensor" />
+    <fragment
+        android:id="@+id/profilePhotoFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.ProfilePhotoFragment"
+        android:label="fragment_profile_photo"
+        tools:layout="@layout/fragment_profile_photo" />
+    <fragment
+        android:id="@+id/voiceRecordFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.VoiceRecordFragment"
+        android:label="fragment_voice_record"
+        tools:layout="@layout/fragment_voice_record" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.FileFragment"
+        android:label="fragment_file"
+        tools:layout="@layout/fragment_file" />
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="ru.mirea.beltsovmd.mireaproject.WeatherFragment"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/nav_locations"
+        android:name="ru.mirea.beltsovmd.mireaproject.LocationsFragment"
+        android:label="fragment_locations"
+        tools:layout="@layout/fragment_locations" />
 </navigation>

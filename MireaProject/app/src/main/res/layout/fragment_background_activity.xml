@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DataFragment">
+    tools:context=".backgroundActivity">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/InfoTextView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:id="@+id/textView9"
+        android:layout_width="408dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="344dp"
+        android:text="TextView" />
 
 </FrameLayout>
